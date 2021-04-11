@@ -1,0 +1,18 @@
+.stockContainer {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(9, 0, 175) 0%, rgba(0,255,244,0.4682247899159664) 100%);
+  box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 80px;
+  padding: 20px;
+  > div {
+    margin: 5px 0;
+
+    &:nth-child(odd) {
+      font-weight: bold;
+    }
+  }
+}

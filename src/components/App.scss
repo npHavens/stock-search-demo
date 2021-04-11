@@ -1,0 +1,29 @@
+.app {
+  margin: 40px;
+}
+
+.appHeader {
+  color: rgb(54, 54, 54);
+  font-size: 24px;
+}
+
+.contentWrapper {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.search {
+  align-items: center;
+  display: flex;
+}
+
+.button {
+  background: linear-gradient(90deg, rgb(9, 0, 175) 0%, rgb(0, 133, 126) 100%);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 10px;
+}
